@@ -1,0 +1,304 @@
+@font-face{
+	font-family:"MetroDF";
+	src:url("fuentes/titulos/METRO-DF.ttf");
+}
+
+/* Para todas las páginas */
+
+body{
+	background-image:url("imagenes/fondos/fondo6.jpg");
+	background-attachment:fixed;
+}
+
+h1{
+	font-family:"MetroDF";
+	font-size:50px;
+	text-align:center;
+	color:#ffffff;
+	text-shadow:5px 3px 5px #ff0000;
+}
+
+h2{
+	font-family:"MetroDF";
+	font-size:30px;
+	margin-left:2%;
+	color:#ffffff;
+	text-shadow: 5px 3px 5px #1693c4;
+}
+
+h3{
+	font-family:"MetroDF";
+	font-size:25px;
+	margin-left:3%;
+	color:#ffffff;
+	text-shadow: 5px 3px 5px #5d00ff;
+}
+
+p{
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:18px;
+	color:#ffffff;
+	line-height:25px;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+.parrafoh2{
+	margin-left:4%;
+	margin-right:4%;
+}
+
+.parrafoh3{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+img{
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:15px;
+	color:white;
+	border-radius:10px;
+}
+
+.linkespecial:link, .linkespecial:visited{
+	display:block;
+	margin:auto;
+	font-family:Lucida Sans Unicode,Lucida Grande,sans-serif;
+	font-size:22px;
+	text-align: center;
+	text-decoration:none;
+	margin-left:35%;
+	margin-right:35%;
+	margin-bottom:1%;
+	margin-top:2%;
+	color:#ff000d;
+	background-color:#a7ff8c;
+	border-color:#35ba0d; 
+	border-width:4px; 
+	border-style: outset;
+	border-radius:15px;
+}
+
+.linkespecial:hover{
+	color:#35ba0d;
+	background-color:#ff525a;
+	border-color:#a31018;
+}
+
+ul{
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:16px;
+	line-height:25px;
+	color:white;
+	margin-left:3%;
+}
+
+ol{
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:16px;
+	line-height:25px;
+	color:white;
+	margin-left:3%;
+}
+
+table{
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:16px;
+	color:#4570d6;
+	border-width:3px;
+	border-color:#d91a47;
+	border-style:outset;
+	box-shadow: 2px 2px #63071d;
+	margin-left:3%;	
+	margin-bottom:1%;
+}
+
+td{
+	border-style:solid;
+	border-width:3px;
+	border-color:#d91a47;
+}
+
+.apartados{
+	font-family:"MetroDF";
+	font-size:25px;
+	text-align:center;
+	color:#ffffff;
+	text-shadow: 5px 3px 5px #9dff00;
+	border-top-style:solid;
+	border-top-width:3px;
+	border-top-color:#3d71ff;
+	padding-top:20px;
+}
+
+.linkcomun:link, .linkcomun:visited{
+	display:block;
+	margin:auto;
+	font-family:Lucida Sans Unicode,Lucida Grande,sans-serif;
+	font-size:22px;
+	text-align: center;
+	text-decoration:none;
+	margin-left:35%;
+	margin-right:35%;
+	margin-bottom:1%;
+	color:#ff0059;
+	background-color:#70b3ff;
+	border-color:#0077ff; 
+	border-width:4px; 
+	border-style: outset;
+	border-radius:15px;
+}
+
+.linkcomun:hover{
+	color:#0077ff;
+	background-color:#ff0059;
+	border-color:#bd0243;
+}
+
+.logos{
+	border-width:5px;
+	border-style:solid;
+	border-color:#cf1717;
+	border-radius:10px;
+	margin-left:5%;
+}
+
+/* Página de Index */
+
+.tituloindex{
+	margin-left:25%;
+	margin-right:25%;
+}
+
+.spiderman{
+	margin-left:7%;
+}
+
+.spiderman2{
+	margin-left:2%;
+}
+
+.stanlee{
+	margin-left:25%;
+}
+
+/* Página de galería */
+
+.h3{
+	text-align:center;
+	margin-left:0;
+	border-top-style:solid;
+	border-top-width:3px;
+	border-top-color:#3d71ff;
+	padding-top:20px;
+}
+
+.separadordefotos{
+	border-top-style:solid;
+	border-top-width:3px;
+	border-top-color:#3d71ff;
+	padding-top:20px;
+}
+
+.fotoizquierda{
+	margin-left:7px;
+	border-style: double;
+	border-width: 5px;
+	border-color: #ffffff;
+	border-radius: 10px;
+	box-shadow:5px 5px 5px red;
+}
+
+.fotos{
+	margin-left:2%;
+	border-style: double;
+	border-width: 5px;
+	border-color: #ffffff;
+	border-radius: 10px;
+	box-shadow:5px 5px 5px red;
+}
+
+.fotoizquierda2{
+	margin-left:10%;
+	border-style: double;
+	border-width: 5px;
+	border-color: #ffffff;
+	border-radius: 10px;
+	box-shadow:5px 5px 5px red;
+}
+
+.fotos2{
+	margin-left:2%;
+	border-style: double;
+	border-width: 5px;
+	border-color: #ffffff;
+	border-radius: 10px;
+	box-shadow:5px 5px 5px red;
+}
+
+.fotoizquierda3{
+	margin-left:15%;
+	border-style: double;
+	border-width: 5px;
+	border-color: #ffffff;
+	border-radius: 10px;
+	box-shadow:5px 5px 5px red;
+}
+
+.fotos3{
+	margin-left:2%;
+	border-style: double;
+	border-width: 5px;
+	border-color: #ffffff;
+	border-radius: 10px;
+	box-shadow:5px 5px 5px red;
+}
+
+/* Página de comics */ 
+
+.li{
+	font-family:Lucida Sans Unicode,Lucida Grande,sans-serif;
+	margin-bottom:2%;
+}
+
+.imagenizquierda{
+	margin-left:3%;
+}
+
+.imagencomic{
+	margin-left:2%;
+}
+
+/* Página de películas */
+
+.imagenespeliculas{
+	margin-left:3%;
+}
+
+.imagen{
+	display:block;
+	margin:auto;
+}
+
+/* Página de juegos */
+
+.linkjuego:link, .linkjuego:visited{
+	font-family:Lucida Sans Unicode,Lucida Grande,sans-serif;
+	text-decoration:none;
+	color:#7bfc03;
+}
+
+.linkjuego:hover{
+	color:#fc7f03;
+}
+
+.imagenesjuegos{
+	margin-left:5%;
+}
+
+/* Página de personajes principales */
+
+/* Página de serie */
+
+
+
